@@ -14,7 +14,7 @@ export const Navbar = () => {
                     <MenuOutlined />
                 </IconButton>
 
-                <NextLink href="/" >
+                <NextLink href="/" legacyBehavior >
                     <Link>
                         <Typography variant='h6' color="white">CookieMaster</Typography>
                     </Link>
@@ -22,7 +22,7 @@ export const Navbar = () => {
 
                 <div style={{ flex: 1 }} />
 
-                <NextLink href="/theme-changer" >
+                <NextLink href="/theme-changer" legacyBehavior>
                     <Link>
                         <Typography variant='h6' color="white">Cambiar Tema</Typography>
                     </Link>
